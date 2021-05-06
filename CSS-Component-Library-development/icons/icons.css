@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&family=Montserrat&family=Nanum+Gothic&family=Noto+Serif&family=Quicksand&family=Raleway:wght@200&family=Roboto+Slab:wght@300&family=Rubik:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300&family=Work+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+:root {
+   font-family: "Noto Serif", serif;
+
+   --primary-color: #002852;
+   --secondary-color: white;
+   --black: #001224;
+   --footer-black: #1e2022;
+   --primary-padding: 2rem;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.nav-container {
+   display: flex;
+   width: 100%;
+   height: 10vh;
+   position: sticky;
+   top: 0;
+   background-color: var(--primary-color);
+   justify-content: space-around;
+   align-items: center;
+   z-index: 1;
+}
+
+aside {
+   width: 20%;
+   background-color: var(--footer-black);
+   height: 90vh;
+   position: sticky;
+   top: 10vh;
+   height: 90vh;
+   overflow-y: auto;
+}
+
+.parent-container {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+}
+
+iframe {
+   margin: 4rem;
+}
+
+.nav-container a:hover {
+   color: rgb(247, 75, 75);
+}
+
+main {
+   display: flex;
+   height: 100%;
+}
+
+.div {
+   background-color: var(--secondary-color);
+   width: 80vw;
+   color: white;
+}
+
+.sidebar-list {
+   padding: 0.8rem;
+   list-style: none;
+   text-decoration: none;
+}
+
+.sidebar-list-header {
+   padding: 1rem 0.6rem;
+   font-weight: bold;
+   font-size: 2vh;
+   color: white;
+}
+
+.sidebar-list a {
+   text-decoration: none;
+   transition: all 0.3s cubic-bezier(0, 0.76, 1, 1);
+}
+
+.sidebar-list a:hover {
+   padding: 1rem;
+}
+
+.nav-container-link {
+   display: flex;
+   text-decoration: none;
+   color: var(--secondary-color);
+}
+
+.link {
+   color: white;
+}
+
+.sidebar-link {
+   font-family: "Source Sans Pro", sans-serif;
+   text-decoration: none;
+   color: white;
+   font-size: large;
+}
+
+.sidebar-link:hover {
+   color: rgb(153, 197, 255);
+}
+
+.aside li:hover {
+   background-color: #ececec;
+}
+
+section {
+   padding: 4rem;
+   display: flex;
+}
+
+.icon-button {
+   padding: 0.8rem;
+   margin: 1rem;
+   background-color: var(--primary-color);
+   color: white;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   min-width: 2.5vw;
+   cursor: pointer;
+}
+
+.sidebar-link-active {
+   font-family: "Source Sans Pro", sans-serif;
+   text-decoration: none;
+   color: white;
+   font-size: large;
+   color: rgb(153, 197, 255);
+}
