@@ -151,3 +151,8 @@ section {
    font-size: large;
    color: rgb(153, 197, 255);
 }
+
+h1 {
+   margin-top: 2rem;
+   margin-left: 2rem;
+}

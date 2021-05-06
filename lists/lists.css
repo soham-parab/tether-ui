@@ -46,7 +46,8 @@ aside {
 }
 
 iframe {
-   margin: 4rem;
+   margin: 4rem 4rem 4rem 0;
+   margin-left: 5.3rem;
 }
 
 .nav-container a:hover {
@@ -131,6 +132,7 @@ section {
    cursor: pointer;
 }
 .notif-div {
+   margin-top: 1rem;
    border: 1px solid var(--primary-color);
    height: 50vh;
    overflow-y: scroll;
@@ -142,4 +144,12 @@ section {
    color: white;
    font-size: large;
    color: rgb(153, 197, 255);
+}
+
+.list-parent {
+   margin-top: 3rem;
+}
+
+h1 {
+   margin-top: 3rem;
 }

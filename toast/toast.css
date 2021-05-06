@@ -154,3 +154,14 @@ section {
    font-size: large;
    color: rgb(153, 197, 255);
 }
+
+h1 {
+   margin-left: 4rem;
+   margin-top: 3rem;
+}
+
+.toast-parent {
+   margin-left: 4rem;
+   margin-top: 2rem;
+   font-size: 1.3rem;
+}

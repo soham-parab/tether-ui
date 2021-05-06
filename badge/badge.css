@@ -151,3 +151,13 @@ section {
 .logo-linkedin {
    padding: 0.2rem;
 }
+
+h1 {
+   margin-top: 3rem;
+   margin-left: 3rem;
+}
+
+.badge-parent {
+   margin-left: 3rem;
+   margin-top: 2rem;
+}
